@@ -1,37 +1,9 @@
-/*
-Variável - pedaço de memória que armazena um valor
-
-let - palavra reservada para criar uma variável
-nomeDaVariavel - nome que damos para a variável
-= - operador de atribuição, usado para atribuir um valor a uma variável
-valor - o dado que queremos armazenar na variável
-
-Algoritimo - receita do bolo
-Logica de programação - forma de fazer o bolo
-
-[] Saber quem é o botão
-[] Saber oque fazer quando clicar no botão
-[] saber quem é o textarea
-[] pegar oq tem dentro dele
-[] enviar para a ia
-[] pegar a resposta da ia e colocar na tela
-
-// HTML = document
-// selecionar algo = querySelector("seletorCSS")
-// quem? 
-// apelido para classes - classes(class) = .
-// fetch -  ferramenta do js para se comunicar com o servidor
-*/
 
 let botao = document.querySelector(".botao-gerar")
-let chave = "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"
+let chave = "gsk_wRYY8TmMNfGmMyKKGFO1WGdyb3FYMItU0Q0rScHbb7hTeeZRnAP"
 let endereco = "https://api.groq.com/openai/v1/chat/completions"
 
-//vizinho curioso (addEventListener) - executa o evento de clique//
-
 botao.addEventListener("click", gerarCodigo)
-
-//função - usada para executar um bloco de código quando o evento ocorre//
 
     async function gerarCodigo()
     {
