@@ -1,6 +1,6 @@
 
 let botao = document.querySelector(".botao-gerar")
-let chave = "gsk_wRYY8TmMNfGmMyKKGFO1WGdyb3FYMItU0Q0rScHbb7hTeeZRnAP"
+let chave = "gsk_wRYY8TmMNfGmMyKKGFO1WGdyb3FYMItU0Q0rScHbb7hTeeZAP"
 let endereco = "https://api.groq.com/openai/v1/chat/completions"
 
 botao.addEventListener("click", gerarCodigo)
