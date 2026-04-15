@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <a href="#" class="logo">NETFLIX</a>
+        </div>
+        <h1>Quem está assistindo?</h1>
+        <p class="lead">Escolha um perfil para começar a assistir.</p>
+        <div class="controls">
+            <button id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Alternar tema">🌙</button>
+        </div>
+    </header>
+    <main>
+        <section aria-labelledby="profiles-title">
+            <h2 id="profiles-title" class="visually-hidden">Perfis</h2>
+            <ul class="profiles" role="list">
+                <li class="profiles-wrapper">
+                    <ol class="profiles-ordered" role="list">
+                        <li class="profile">
+                            <button type="button" class="profile-button" aria-label="Selecionar Perfil 1">
+                                <figure>
+                                    <img src="assets/perfil-1.webp" alt="Avatar do Perfil 1" width="160" height="160" loading="lazy" />
+                                    <figcaption>Nicolas</figcaption>
+                                </figure>
+                            </button>
+                        </li>
+                        <li class="profile">
+                            <button type="button" class="profile-button" aria-label="Selecionar Perfil 2">
+                                <figure>
+                                    <img src="assets/perfil-2.webp" alt="Avatar do Perfil 2" width="160" height="160" loading="lazy" />
+                                    <figcaption>Gabriela</figcaption>
+                                </figure>
+                            </button>
+                        </li>
+                        <li class="profile">
+                            <button type="button" class="profile-button" aria-label="Selecionar Perfil 3">
+                                <figure>
+                                    <img src="assets/perfil-3.webp" alt="Avatar do Perfil 3" width="160" height="160" loading="lazy" />
+                                    <figcaption>Mariana</figcaption>
+                                </figure>
+                            </button>
+                        </li>
+                        <li class="profile">
+                            <button type="button" class="profile-button" aria-label="Selecionar Perfil 4">
+                                <figure>
+                                    <img src="assets/perfil-4.webp" alt="Avatar do Perfil 4" width="160" height="160" loading="lazy" />
+                                    <figcaption>Lucas</figcaption>
+                                </figure>
+                            </button>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+    <script src="script.js" defer></script>
+</html>
